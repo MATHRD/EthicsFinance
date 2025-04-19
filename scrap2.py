@@ -8,6 +8,10 @@ import re
 CHEMIN = "C:/Users/mathy/OneDrive/Bureau/EthicsFinance" # A changer selon l'endroit où vous clonez le repo git
 esg_grade = pd.read_csv(f'{CHEMIN}/tickers_finaux.csv')
 
+# Le fichier tickers_finaux.csv regroupe notre actions via le best-in-class
+# Le script permet de récupérer le daily close price et le volume échangé sur la journnée
+# En sorti on à 2 fichiers Excel avec les inforamtions ci-dessus
+
 start_date = "2022-01-01"
 end_date = "2025-01-01"
 output_file_price = f"{CHEMIN}/price1_ticker.csv"
