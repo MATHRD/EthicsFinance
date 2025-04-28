@@ -18,7 +18,7 @@ esg_grade["ISSUER_EQUITY_TICKER"] = esg_grade["ISSUER_EQUITY_TICKER"].str.split(
 
 
 top_60_percent = esg_grade.sort_values("Score ESG brut", ascending=False)
-top_60_percent = top_60_percent.head(int(0.6 * len(esg_grade))) # Prendre les 60% des entreprises avec la meilleure note ESG
+top_60_percent = top_60_percent.head(int(0.75 * len(esg_grade))) # Prendre les 60% des entreprises avec la meilleure note ESG
 
 
 start_date = "2022-01-01"
