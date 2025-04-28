@@ -1,1 +1,2 @@
-# EthicsFinance
+# EthicsFinance 
+Liam Mathys Noé
